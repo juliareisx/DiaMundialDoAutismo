@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dia Mundial da Conscientização do Autismo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <img src="imagens/Design sem nome.png" alt="Símbolo do Autismo" class="symbol"/>
+      <h1>2 de Abril</h1>
+      <h2>Dia Mundial da Conscientização do Autismo</h2>
+      <p>Entender, respeitar e incluir: o autismo é parte da diversidade humana.</p>
+    </div>
+  </header>
+
+
+  <section class="accordion-section">
+    <div class="container">
+  
+      <div class="accordion">
+        <h3 class="accordion-title">O que é o Autismo?</h3>
+        <div class="accordion-content">
+          <p>
+            O Transtorno do Espectro Autista (TEA) é uma condição neurológica que afeta a forma como uma pessoa percebe o mundo, se comunica e interage socialmente. É chamado de "espectro" porque se manifesta de formas diferentes em cada pessoa.
+          </p>
+          <p>
+            O autismo não é uma doença — é uma forma diferente de funcionamento cerebral. Pessoas autistas podem ter dificuldades na comunicação, comportamentos repetitivos e interesses específicos, mas também podem apresentar talentos únicos.
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion">
+        <h3 class="accordion-title">O que é o Dia Mundial da Conscientização do Autismo?</h3>
+        <div class="accordion-content">
+          <p>
+            Criado pela ONU em 2007, o dia 2 de abril tem o objetivo de aumentar a conscientização sobre o autismo e promover a inclusão de pessoas autistas em todas as esferas da sociedade. Neste dia, monumentos são iluminados de azul e diversas campanhas são realizadas no mundo todo.
+          </p>
+          <p>
+            A data é um convite para quebrarmos preconceitos e celebrarmos a neurodiversidade.
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion">
+        <h3 class="accordion-title">Características comuns no espectro</h3>
+        <div class="accordion-content">
+          <ul>
+            <li>Diferenças na comunicação verbal e não verbal</li>
+            <li>Dificuldade em interações sociais</li>
+            <li>Comportamentos repetitivos ou rotina rígida</li>
+            <li>Hiperfoco em determinados interesses</li>
+            <li>Hipersensibilidade ou baixa sensibilidade a sons, luzes ou texturas</li>
+          </ul>
+          <p>
+            Nenhuma característica isolada define alguém como autista. O diagnóstico deve ser feito por uma equipe especializada.
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion">
+        <h3 class="accordion-title">Mitos e Verdades sobre o Autismo</h3>
+        <div class="accordion-content">
+          <ul>
+            <li><strong>Mito:</strong> Todo autista tem deficiência intelectual.</li>
+            <li><strong>Verdade:</strong> O autismo não está diretamente ligado à inteligência. Há pessoas autistas com deficiência intelectual e outras com altas habilidades.</li>
+  
+            <li><strong>Mito:</strong> Autistas não têm sentimentos.</li>
+            <li><strong>Verdade:</strong> Pessoas autistas sentem emoções como qualquer outra, mas podem demonstrar de forma diferente.</li>
+  
+            <li><strong>Mito:</strong> Autismo tem cura.</li>
+            <li><strong>Verdade:</strong> O autismo não é uma doença e, portanto, não tem cura. O foco deve ser no respeito, apoio e inclusão.</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="accordion">
+        <h3 class="accordion-title">Como promover a inclusão de pessoas autistas?</h3>
+        <div class="accordion-content">
+          <ul>
+            <li>Evite julgamentos e estigmas</li>
+            <li>Respeite o tempo e o espaço de cada um</li>
+            <li>Use linguagem acessível e clara</li>
+            <li>Ofereça apoio sem forçar mudanças</li>
+            <li>Busque informação em fontes confiáveis</li>
+          </ul>
+          <p>
+            Inclusão começa com escuta e empatia. Ninguém é igual, e isso é maravilhoso.
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion">
+        <h3 class="accordion-title">Dados importantes sobre o Autismo</h3>
+        <div class="accordion-content">
+          <ul>
+            <li>O autismo afeta cerca de 1 a cada 36 crianças, segundo o CDC (2023).</li>
+            <li>Mais meninos são diagnosticados, mas meninas podem ser subdiagnosticadas.</li>
+            <li>O diagnóstico precoce pode melhorar o desenvolvimento com apoio certo.</li>
+            <li>Muitas pessoas só recebem diagnóstico na vida adulta.</li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <section class="colors">
+    <div class="container">
+      <h3>Cores do Espectro</h3>
+      <div class="color-boxes">
+        <div class="color-box blue" onclick="showColorMeaning('blue')">Azul</div>
+        <div class="color-box red" onclick="showColorMeaning('red')">Vermelho</div>
+        <div class="color-box yellow" onclick="showColorMeaning('yellow')">Amarelo</div>
+        <div class="color-box green" onclick="showColorMeaning('green')">Verde</div>
+      </div>
+      <p class="color-desc" id="color-meaning">
+        Clique em uma cor para ver o seu significado no espectro autista.
+      </p>
+    </div>
+  </section>
+  
+
+  <section class="curiosidades">
+    <div class="container">
+      <h3>Você sabia?</h3>
+      <div class="carousel" id="carousel">
+        <div class="carousel-slide ativo">🧩 O autismo não é uma doença. É uma condição do neurodesenvolvimento.</div>
+        <div class="carousel-slide">🎯 Pessoas com TEA podem ter hiperfoco e interesses específicos incríveis.</div>
+        <div class="carousel-slide">🧠 Algumas pessoas autistas têm hipersensibilidade a sons, luzes ou cheiros.</div>
+        <div class="carousel-slide">💬 Comunicação pode ser verbal, não-verbal ou com apoio de tecnologia.</div>
+        <div class="carousel-slide">🤝 Inclusão é escutar, respeitar e acolher cada forma de existir.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kahoot fade-in">
+    <div class="container">
+      <h3>Vamos testar o seu conhecimento?</h3>
+      <p>Responda ao nosso quiz interativo sobre o Autismo no Kahoot!</p>
+  
+      <!-- Botão que abre o Kahoot em nova aba -->
+      <a href="https://quizizz.com/join" target="_blank" class="btn kahoot-link">
+        Ir para o Quiz 🎉
+      </a>
+  
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h3>Como Apoiar?</h3>
+      <p>Apoiar pessoas com autismo é um ato de inclusão que transforma vidas. Abaixo, compartilho algumas maneiras práticas e simples de fazer a diferença.</p>
+  
+      <ul>
+        <li>
+          <img src="imagens/Pessoa menor.png" alt="Respeito ao Espaço" class="icon">
+          <strong>Respeite o tempo e o espaço das pessoas com autismo</strong>
+          <p>Se alguém precisar de um momento sozinha ou se afastar de uma situação, respeite esse tempo. Isso ajuda a reduzir a sobrecarga sensorial e emocional.</p>
+        </li>
+        <li>
+          <img src="imagens/Pessoa menor.png" alt="Linguagem Clara" class="icon">
+          <strong>Use linguagem acessível e clara</strong>
+          <p>Ao comunicar-se com pessoas autistas, tente ser claro e direto. Evite frases complexas ou metáforas, pois isso pode causar confusão.</p>
+        </li>
+        <li>
+          <img src="imagens/Pessoa menor.png" alt="Empatia e Respeito" class="icon">
+          <strong>Respeite a diversidade e as necessidades sensoriais</strong>
+          <p>Cada pessoa com autismo pode ter necessidades sensoriais diferentes. Esteja atento e seja compreensivo, adaptando o ambiente quando necessário.</p>
+        </li>
+        <li>
+          <img src="imagens/Pessoa menor.png" alt="Incluir na Educação" class="icon">
+          <strong>Promova a inclusão na escola e no trabalho</strong>
+          <p>Garanta que todos tenham acesso igual às oportunidades de aprender e se desenvolver, criando ambientes inclusivos e acolhedores.</p>
+        </li>
+      </ul>
+  
+      <div class="share">
+        <p>Compartilhe esse conteúdo e ajude a espalhar a conscientização:</p>
+        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"   class="btn facebook">Facebook</a>
+        <a href="https://www.whatsapp.com/?lang=pt_BR"  target="_blank" class="btn whatsapp">WhatsApp</a>
+        <a href="https://x.com/?lang=pt"  target="_blank" class="btn twitter">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="countdown">
+    <div class="container">
+      <h3>Faltam:</h3>
+      <div id="timer">
+        <span id="days"></span> dias
+        <span id="hours"></span> horas
+        <span id="minutes"></span> minutos
+        <span id="seconds"></span> segundos
+      </div>
+      <h3>para o proximo dia mundial de conscientização do autismo</h3>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <p>© 2025 - Conscientização do Autismo. Respeito, inclusão e empatia.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/?text=Quero%20saber%20mais%20sobre%20o%20autismo!" target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp">💬</a>
+
+  <!-- Scripts -->
+  <script>
+    
+  const titles = document.querySelectorAll('.accordion-title');
+
+  titles.forEach(title => {
+    title.addEventListener('click', () => {
+      const content = title.nextElementSibling;
+      content.classList.toggle('open');
+    });
+  });
+
+// Função para exibir o significado da cor
+function showColorMeaning(color) {
+  const colorMeaning = document.getElementById('color-meaning');
+  
+  // Mapear o significado das cores
+  const meanings = {
+    blue: 'Azul: Representa a aceitação e compreensão do autismo, simbolizando o esforço por um mundo mais inclusivo.',
+    red: 'Vermelho: Simboliza a paixão pela luta pela conscientização e inclusão de pessoas autistas.',
+    yellow: 'Amarelo: Reflete a energia e o brilho das pessoas com autismo, que têm talentos extraordinários.',
+    green: 'Verde: Está associado ao crescimento, cura e ao apoio contínuo no desenvolvimento das pessoas autistas.'
+  };
+  
+  // Alterar o conteúdo do parágrafo com o significado da cor
+  colorMeaning.textContent = meanings[color];
+}
+
+
+    // Contador para o proximo dia do autismo
+  function countdownToAutismDay() {
+    const now = new Date();
+    const year = now.getMonth() > 3 || (now.getMonth() === 3 && now.getDate() > 2) ? now.getFullYear() + 1 : now.getFullYear();
+    const autismDay = new Date(`${year}-04-02T00:00:00`);
+    const diff = autismDay - now;
+
+    // Cálculo dos dias, horas, minutos e segundos restantes
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    // Exibindo o tempo no formato adequado
+    document.getElementById("days").textContent = days;
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+    document.getElementById("seconds").textContent = seconds;
+  }
+
+  // Atualiza o contador a cada 1 segundo
+  setInterval(countdownToAutismDay, 1000);
+  countdownToAutismDay(); // Chama a função imediatamente ao carregar a página
+
+
+
+    // Carrossel
+    const slides = document.querySelectorAll('.carousel-slide');
+    let index = 0;
+    setInterval(() => {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('ativo');
+        if (i === index) slide.classList.add('ativo');
+      });
+      index = (index + 1) % slides.length;
+    }, 4000);
+  </script>
+
+</body>
+</html>
